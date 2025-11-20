@@ -1,0 +1,108 @@
+[
+  {
+    "ContainingType": "Lab3BD.Controllers.AlbumsController",
+    "Method": "GetAlbum",
+    "RelativePath": "api/Albums/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab3BD.Controllers.FunctionsController",
+    "Method": "LessThanAvg",
+    "RelativePath": "api/Functions/lessThanAvg",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab3BD.Controllers.FunctionsController",
+    "Method": "LongerThan",
+    "RelativePath": "api/Functions/longerThan/{duration}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "duration",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab3BD.Controllers.FunctionsController",
+    "Method": "TopAlbums",
+    "RelativePath": "api/Functions/topAlbums/{artistName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "artistName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab3BD.Controllers.ProceduresController",
+    "Method": "AddLabel",
+    "RelativePath": "api/Procedures/addLabel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Lab3BD.DTOs.LabelDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab3BD.Controllers.ProceduresController",
+    "Method": "ChangeAlbumLabel",
+    "RelativePath": "api/Procedures/changeAlbumLabel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Lab3BD.DTOs.ChangeAlbumLabelDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lab3BD.Controllers.ProceduresController",
+    "Method": "UpdateAlbumTitle",
+    "RelativePath": "api/Procedures/updateAlbumTitle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Lab3BD.DTOs.UpdateAlbumTitleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

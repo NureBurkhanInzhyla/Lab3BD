@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #9373da;
+    color: #fff;
+    padding: 9px 0;
+    text-align: center;
+}
+header h1{
+    font-size: 25px;
+}
+
+.main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.main input{
+    border-radius: 6px;
+    border: 0.2px solid rgb(143, 142, 142);
+    font-size: 17px;
+    padding: 5px 10px;
+    margin-bottom: 7px;
+    width: auto !important;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+    justify-content: center;
+}
+
+input[type="number"] {
+    padding: 5px 10px;
+    width: 80px;
+}
+
+button {
+    padding: 6px 12px;
+    background-color: #9373da;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #303f9f;
+}
+
+.album {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.album h2 {
+    margin: 0 0 10px 0;
+}
+
+.album p {
+    margin: 5px 0;
+}
+
+.tracks {
+    margin-top: 10px;
+}
+
+.track {
+    padding: 5px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.track:last-child {
+    border-bottom: none;
+}
+.form-row{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Music Catalog</h1>
+    </header>
+
+    <div class="main">
+        <div class="search">
+            <label for="albumId">Album ID:</label>
+            <input type="number" id="albumId" value="1">
+            <button id="loadBtn">Load Album</button>
+        </div>
+
+        <div id="albumContainer" class="album-container">
+        </div>
+        <section class="form-section">
+            <h2>Add New Label</h2>
+            <div class="form-row">
+                <input type="number" id="labelId" placeholder="Label ID">
+                <input type="text" id="labelName" placeholder="Name">
+                <input type="text" id="labelCountry" placeholder="Country">
+                <input type="number" id="labelYear" placeholder="Foundation Year">
+                <button onclick="addLabel()">Add Label</button>
+            </div>
+            <p id="addLabelMsg" class="message"></p>
+        </section>
+
+
+        <section class="form-section">
+            <h2>Change Album Label</h2>
+            <input type="number" id="albumIdChange" placeholder="Album ID">
+            <input type="text" id="albumTitle" placeholder="Album Title">
+            <input type="number" id="artistId" placeholder="Artist ID">
+            <input type="number" id="newLabelId" placeholder="New Label ID">
+            <button onclick="changeAlbumLabel()">Change Album Label</button>
+            <p id="changeAlbumMsg" class="message"></p>
+        </section>
+
+        <section class="form-section">
+            <h2>Update Album Title</h2>
+            <input type="number" id="updateAlbumId" placeholder="Album ID">
+            <input type="text" id="suffix" placeholder="Suffix">
+            <button onclick="updateAlbumTitle()">Update Title</button>
+            <p id="updateTitleMsg" class="message"></p>
+        </section>
+
+
+       <section class="form-section">
+            <h2>SQL Functions</h2>
+
+            <div class="form-row">
+                <button onclick="loadLessThanAvg()">Tracks Below Average Duration</button>
+                <span id="lessThanAvgResult"></span>
+            </div>
+
+            <div class="form-row">
+                <input type="number" id="durationInput" placeholder="Duration (sec)">
+                <button onclick="loadLongerThan()">Tracks Longer Than</button>
+                <span id="longerThanResult"></span>
+            </div>
+
+            <div class="form-row">
+                <input type="text" id="artistNameInput" placeholder="Artist Name">
+                <button onclick="loadTopAlbums()">Top Albums by Artist</button>
+                <div id="topAlbumsResult" class="result-container"></div>
+            </div>
+        </section>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
