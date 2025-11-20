@@ -16,6 +16,8 @@ namespace Lab3BD
     {
         private readonly MusicContext _context;
         public MusicService(MusicContext context) => _context = context;
+
+
         public async Task AddNewLabelAsync(int labelId, string name, string country, int foundationYear)
         {
             var sql = "EXEC AddNewLabel @label_id, @name, @country, @foundation_year";

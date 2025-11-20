@@ -14,11 +14,14 @@ namespace Lab3BD
         public DbSet<Album> Albums { get; set; }
         public DbSet<Track> Tracks { get; set; }
 
+        public DbSet<Genre> Genres { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Artist>().ToTable("Artist", "dbo");
             modelBuilder.Entity<Album>().ToTable("Album", "dbo");
             modelBuilder.Entity<Track>().ToTable("Track", "dbo");
+            modelBuilder.Entity<Genre>().ToTable("Genre", "dbo");
 
         }
     }

@@ -1,7 +1,6 @@
-const loadBtn = document.getElementById('loadBtn');
 const albumContainer = document.getElementById('albumContainer');
 
-loadBtn.addEventListener('click', async () => {
+document.getElementById("loadAlbumBtn").addEventListener("click", async () => {
     const albumId = document.getElementById('albumId').value;
     if (!albumId) return alert("Enter album ID");
 
@@ -20,6 +19,45 @@ loadBtn.addEventListener('click', async () => {
         albumContainer.innerHTML = `<p>Error loading album</p>`;
     }
 });
+document.getElementById("loadArtistBtn").addEventListener("click", async () => {
+    const artistId = document.getElementById("artistIdInput").value;
+    const container = document.getElementById("artistContainer");
+
+    if (!artistId) return alert("Enter artist ID");
+
+    try {
+        const res = await fetch(`https://localhost:7021/api/artists/${artistId}`);
+        if (!res.ok) {
+            container.innerHTML = "<p>Artist not found</p>";
+            return;
+        }
+        const artist = await res.json();
+      renderArtist(artist);
+    } catch (err) {
+        container.innerHTML = "<p>Error loading artist</p>";
+        console.error(err);
+    }
+});
+document.getElementById('loadGenreBtn').addEventListener('click', async () => {
+    const id = document.getElementById('genreId').value;
+    const container = document.getElementById('genreContainer');
+
+    if (!id) return alert('Enter genre ID');
+
+    try {
+        const res = await fetch(`https://localhost:7021/api/genres/${id}`);
+        if (!res.ok) {
+            container.innerHTML = "<p>Genre not found</p>";
+            return;
+        }
+        const genre = await res.json();
+        renderGenre(genre);
+    } catch (err) {
+        container.innerHTML = "<p>Error loading genre</p>";
+        console.error(err);
+    }
+});
+
 
 function renderAlbum(album) {
     const tracks = album.tracks?.$values || [];
@@ -34,6 +72,41 @@ function renderAlbum(album) {
                 <h3>Tracks:</h3>
                 ${tracks.map(t => `<div class="track">${t.title} (${t.duration}s)</div>`).join('')}
             </div>
+        </div>
+    `;
+}
+function renderArtist(artist) {
+    const albums = artist.albums?.$values || [];
+
+    const artistContainer = document.getElementById('artistContainer');
+    artistContainer.innerHTML = `
+        <div class="artist">
+            <h2>${artist.name} (${artist.country})</h2>
+            
+            <div class="albums">
+                <h3>Albums:</h3>
+                ${albums.map(album => {
+                    const tracks = album.tracks?.$values || [];
+                    return `
+                        <div class="album">
+                            <h4>${album.title} (${album.releaseYear})</h4>
+                            <p><strong>Label:</strong> ${album.label.name} (${album.label.country})</p>
+                            <div class="tracks">
+                                <h5>Tracks:</h5>
+                                ${tracks.map(t => `<div class="track">${t.title} (${t.duration}s)</div>`).join('')}
+                            </div>
+                        </div>
+                    `;
+                }).join('')}
+            </div>
+        </div>
+    `;
+}
+function renderGenre(genre) {
+    const container = document.getElementById('genreContainer');
+    container.innerHTML = `
+        <div class="card">
+            <h2>${genre.name}</h2>
         </div>
     `;
 }

@@ -88,3 +88,9 @@ button:hover {
 .form-row{
     margin-bottom: 10px;
 }
+
+.card h2 {
+    color: #303f9f;
+    margin: 0 0 8px;
+    font-size: 23px;
+}

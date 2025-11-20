@@ -11,12 +11,34 @@
     </header>
 
     <div class="main">
-        <div class="search">
-            <label for="albumId">Album ID:</label>
-            <input type="number" id="albumId" value="1">
-            <button id="loadBtn">Load Album</button>
-        </div>
+       <section class="search-section">
+            <h2>Load Album</h2>
+            <div class="search">
+                <label for="albumId">Album ID:</label>
+                <input type="number" id="albumId" value="1">
+                <button id="loadAlbumBtn">Load Album</button>
+            </div>
+            <div id="albumContainer" class="result-container"></div>
+        </section>
 
+        <section class="search-section">
+            <h2>Load Artist</h2>
+            <div class="search">
+                <label for="artistId">Artist ID:</label>
+                <input type="number" id="artistIdInput" value="1">
+                <button id="loadArtistBtn">Load Artist</button>
+            </div>
+            <div id="artistContainer" class="result-container"></div>
+        </section>
+         <section class="search-section">
+            <h2>Load Genre</h2>
+            <div class="search">
+                <label for="genreId">Genre ID:</label>
+                <input type="number" id="genreId" value="1">
+                <button id="loadGenreBtn">Load Genre</button>
+            </div>
+            <div id="genreContainer" class="result-container"></div>
+        </section>
         <div id="albumContainer" class="album-container">
         </div>
         <section class="form-section">
