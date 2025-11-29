@@ -47,29 +47,13 @@ namespace Lab3BD
                 cmd.Parameters.AddWithValue("@ArtistId", artistId);
                 cmd.Parameters.AddWithValue("@NewLabelId", newLabelId);
 
-                string message = "";
-
-                connection.InfoMessage += (sender, e) => {
-                    message += e.Message + "\n";
-                };
                 try
                 {
-                    using (var reader = await cmd.ExecuteReaderAsync())
-                    {
-                        if (await reader.ReadAsync() && reader.HasRows)
-                            message += reader["Message"]?.ToString();
-                    }
-
-                    if (string.IsNullOrWhiteSpace(message))
-                        message = "No message returned from SQL.";
-
-                    return message.Trim();
+                    var result = await cmd.ExecuteScalarAsync();
+                    return result?.ToString() ?? "Операцію виконано успішно.";
                 }
                 catch (SqlException ex)
                 {
-                    if (ex.Number >= 50000)
-                        throw new CustomDatabaseException(ex.Message, ex);
-
                     throw;
                 }
             }
@@ -93,21 +77,11 @@ namespace Lab3BD
 
                 try
                 {
-                    using (var reader = await command.ExecuteReaderAsync())
-                    {
-                        if (await reader.ReadAsync())
-                        {
-                            newTitle = reader.GetString(0); 
-                        }
-                    }
-
-                    return newTitle;
+                    var result = await command.ExecuteScalarAsync();
+                    return result?.ToString() ?? "Операцію виконано успішно.";
                 }
                 catch (SqlException ex)
                 {
-                    if (ex.Number >= 50000)
-                        throw new CustomDatabaseException(ex.Message, ex);
-
                     throw;
                 }
             }

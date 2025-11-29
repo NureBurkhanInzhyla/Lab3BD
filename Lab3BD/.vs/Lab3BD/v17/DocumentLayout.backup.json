@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|c:\\users\\ingil\\source\\repos\\lab3bd\\controllers\\procedurescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|solutionrelative:controllers\\procedurescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|c:\\users\\ingil\\source\\repos\\lab3bd\\musicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|solutionrelative:musicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|c:\\users\\ingil\\source\\repos\\lab3bd\\controllers\\functionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|solutionrelative:controllers\\functionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|c:\\users\\ingil\\source\\repos\\lab3bd\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|solutionrelative:controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|c:\\users\\ingil\\source\\repos\\lab3bd\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|solutionrelative:models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|c:\\users\\ingil\\source\\repos\\lab3bd\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|solutionrelative:dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|c:\\users\\ingil\\source\\repos\\lab3bd\\controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|solutionrelative:controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|c:\\users\\ingil\\source\\repos\\lab3bd\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|solutionrelative:dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|c:\\users\\ingil\\source\\repos\\lab3bd\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|solutionrelative:controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|c:\\users\\ingil\\source\\repos\\lab3bd\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|solutionrelative:models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|c:\\users\\ingil\\source\\repos\\lab3bd\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,24 +43,12 @@
       "RelativeMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|solutionrelative:models\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|c:\\users\\ingil\\source\\repos\\lab3bd\\musicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|solutionrelative:musicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|c:\\users\\ingil\\source\\repos\\lab3bd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|c:\\users\\ingil\\source\\repos\\lab3bd\\controllers\\procedurescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|solutionrelative:controllers\\procedurescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|c:\\users\\ingil\\source\\repos\\lab3bd\\dtos\\updatealbumtitledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|solutionrelative:dtos\\updatealbumtitledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|c:\\users\\ingil\\source\\repos\\lab3bd\\controllers\\functionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|solutionrelative:controllers\\functionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC034D27-D13B-4F3A-A4BC-3B23EF3CCF74}|Lab3BD.csproj|c:\\users\\ingil\\source\\repos\\lab3bd\\dtos\\changealbumlabeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,20 +86,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GenresController.cs",
               "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\Controllers\\GenresController.cs",
               "RelativeDocumentMoniker": "Controllers\\GenresController.cs",
               "ToolTip": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\Controllers\\GenresController.cs",
               "RelativeToolTip": "Controllers\\GenresController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T19:46:37.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Genre.cs",
               "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\Models\\Genre.cs",
               "RelativeDocumentMoniker": "Models\\Genre.cs",
@@ -107,37 +107,37 @@
               "RelativeToolTip": "Models\\Genre.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T19:44:50.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T19:44:50.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ArtistsController.cs",
               "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\Controllers\\ArtistsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ArtistsController.cs",
               "ToolTip": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\Controllers\\ArtistsController.cs",
               "RelativeToolTip": "Controllers\\ArtistsController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T19:20:41.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "FunctionsController.cs",
               "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\Controllers\\FunctionsController.cs",
               "RelativeDocumentMoniker": "Controllers\\FunctionsController.cs",
               "ToolTip": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\Controllers\\FunctionsController.cs",
               "RelativeToolTip": "Controllers\\FunctionsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBkAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T15:29:03.553Z"
+              "WhenOpened": "2025-11-20T15:29:03.553Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "UpdateAlbumTitleDto.cs",
               "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\DTOs\\UpdateAlbumTitleDto.cs",
               "RelativeDocumentMoniker": "DTOs\\UpdateAlbumTitleDto.cs",
@@ -173,26 +173,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "ProceduresController.cs",
               "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\Controllers\\ProceduresController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProceduresController.cs",
               "ToolTip": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\Controllers\\ProceduresController.cs",
               "RelativeToolTip": "Controllers\\ProceduresController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAIwCgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwCUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T14:55:06.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "MusicService.cs",
               "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\MusicService.cs",
               "RelativeDocumentMoniker": "MusicService.cs",
               "ToolTip": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\MusicService.cs",
               "RelativeToolTip": "MusicService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAtwFAAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T14:49:03.537Z",
               "EditorCaption": ""
@@ -211,20 +211,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AlbumsController.cs",
               "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\Controllers\\AlbumsController.cs",
               "RelativeDocumentMoniker": "Controllers\\AlbumsController.cs",
               "ToolTip": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\Controllers\\AlbumsController.cs",
               "RelativeToolTip": "Controllers\\AlbumsController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T13:23:52.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -232,8 +232,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T13:12:56.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T13:12:56.586Z"
             },
             {
               "$type": "Document",
@@ -249,20 +248,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "DbContext.cs",
               "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\DbContext.cs",
               "RelativeDocumentMoniker": "DbContext.cs",
               "ToolTip": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\DbContext.cs",
               "RelativeToolTip": "DbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBAAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T13:11:08.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Track.cs",
               "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\Models\\Track.cs",
               "RelativeDocumentMoniker": "Models\\Track.cs",
@@ -270,8 +269,7 @@
               "RelativeToolTip": "Models\\Track.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T13:10:30.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T13:10:30.659Z"
             },
             {
               "$type": "Document",
@@ -287,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Artist.cs",
               "DocumentMoniker": "C:\\Users\\ingil\\source\\repos\\Lab3BD\\Models\\Artist.cs",
               "RelativeDocumentMoniker": "Models\\Artist.cs",
@@ -295,12 +293,7 @@
               "RelativeToolTip": "Models\\Artist.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T13:10:02.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-11-20T13:10:02.171Z"
             }
           ]
         }

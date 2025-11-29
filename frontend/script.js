@@ -156,10 +156,13 @@ async function changeAlbumLabel() {
             body: JSON.stringify({ albumId, albumTitle: title, artistId, newLabelId })
         });
 
-       const data = await res.json();
+      const data = await res.json().catch(() => ({}));
 
-        msg.style.color = res.ok;
-        msg.textContent = data.message;
+        const serverMessage =
+            data.message || data.error || "Unknown server response";
+
+        msg.textContent = serverMessage;
+        msg.style.color = res.ok ? "green" : "red";
 
     } catch (err) {
         msg.textContent = "Network error: " + err;
@@ -180,15 +183,17 @@ async function updateAlbumTitle(){
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ albumId, suffix })
         });
-         if (!res.ok) {
-            const text = await res.text();
-            throw new Error(text);
-        }
+        const data = await res.json().catch(() => ({}));
 
-        const text = await res.text();
-        msg.textContent = "Updated title: " + text;
+        const serverMessage =
+            data.message || data.error || "Unknown server response";
+
+        msg.textContent = serverMessage;
+        msg.style.color = res.ok ? "green" : "red";
+
     } catch (err) {
-        msg.textContent = "Error: " + err;
+        msg.textContent = "Network error: " + err;
+        msg.style.color = "red";
     }
 }
 

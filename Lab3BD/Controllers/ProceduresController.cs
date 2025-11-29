@@ -1,5 +1,6 @@
 ﻿using Lab3BD.DTOs;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 
 namespace Lab3BD.Controllers
 {
@@ -22,17 +23,18 @@ namespace Lab3BD.Controllers
         {
             try
             {
-                var message = await _service.ChangeAlbumLabelAsync(dto.AlbumId, dto.AlbumTitle, dto.ArtistId, dto.NewLabelId);
+                var message = await _service.ChangeAlbumLabelAsync(
+                  dto.AlbumId,
+                  dto.AlbumTitle,
+                  dto.ArtistId,
+                  dto.NewLabelId
+              );
 
-                return Ok(new { status = "Success", message = message });
+                return Ok(new { message });
             }
-            catch (CustomDatabaseException ex)
+            catch (SqlException ex)
             {
-                return BadRequest(new { status = "Database Error", message = ex.Message });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { status = "Error", message = $"Internal error: {ex.Message}" });
+                return BadRequest(new { error = ex.Message });
             }
         }
 
@@ -41,23 +43,15 @@ namespace Lab3BD.Controllers
         {
             try
             {
-                
-                var newTitle = await _service.UpdateAlbumTitleAsync(dto.AlbumId, dto.Suffix);
+                var message = await _service.UpdateAlbumTitleAsync(dto.AlbumId, dto.Suffix);
 
-                return Ok(new { status = "Updated", newTitle = newTitle });
+                return Ok(new { message });
             }
-            catch (CustomDatabaseException ex)
+            catch (SqlException ex)
             {
-                return BadRequest(new
-                {
-                    status = "Database Error",
-                    message = ex.Message
-                });
+                return BadRequest(new { error = ex.Message });
             }
-            catch (Exception)
-            {
-                return StatusCode(500, new { status = "Error", message = "An internal server error occurred during title update." });
-            }
+        
         }
     }
 }
